@@ -18,13 +18,19 @@ export default function UseId() {
             <h4>Before</h4>
             <UseIdBefore />
             <UseIdBefore />
-            <p>Every id is randomly generated in each render. Unpredictable.</p>
+            <p>
+              Every id is randomly generated in each render. Unpredictable and
+              can not be used on server-side.
+            </p>
           </Col>
           <Col xs={12} md={6} className="d-flex flex-column gap-3">
             <h4>Now</h4>
             <UseIdNowOne />
             <UseIdNowOne />
-            <p>Now each id is automatically generated on render, and is consistent with its last render id while the page does not change.  </p>
+            <p>
+              Now each id is automatically generated on render, and is
+              consistent with its last render id while the page does not change.{" "}
+            </p>
             <h4>Other Use</h4>
             <UseIdNowTwo />
           </Col>
