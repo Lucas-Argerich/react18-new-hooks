@@ -20,7 +20,7 @@ export default function UseId() {
             <UseIdBefore />
             <p>
               Every id is randomly generated in each render. Unpredictable and
-              can not be used on server-side.
+              can not be used server-side.
             </p>
           </Col>
           <Col xs={12} md={6} className="d-flex flex-column gap-3">
