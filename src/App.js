@@ -1,10 +1,10 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import UseDeferredValue from "./pages/UseDeferredValue";
-import UseId from "./pages/UseId";
-import UseInsertionEffect from "./pages/UseInsertionEffect";
-import UseSyncExternalStore from "./pages/UseSyncExternalStorage";
-import UseTransition from "./pages/UseTransition";
+import UseDeferredValue from "./containers/UseDeferredValue";
+import UseId from "./containers/UseId";
+import UseInsertionEffect from "./containers/UseInsertionEffect";
+import UseSyncExternalStore from "./containers/UseSyncExternalStorage";
+import UseTransition from "./containers/UseTransition";
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import UseIdBefore from "../../components/UseIdBefore";
-import UseIdNowOne from "../../components/UseIdNowOne";
-import UseIdNowTwo from "../../components/useIdNowTwo";
+import UseIdBefore from "../../components/useIdComponents/UseIdBefore";
+import UseIdNowOne from "../../components/useIdComponents/UseIdNowOne";
+import UseIdNowTwo from "../../components/useIdComponents/useIdNowTwo";
 
 export default function UseId() {
   return (
