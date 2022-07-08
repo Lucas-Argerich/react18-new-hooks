@@ -1,4 +1,5 @@
 {
+  "homepage":"https://lucas-argerich.github.io/react18-new-hooks/",
   "name": "react18-new-hooks",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "web-vitals": "^2.1.4"
   }
 }
