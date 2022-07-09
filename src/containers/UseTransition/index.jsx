@@ -5,7 +5,7 @@ import UseTransitionNow from "../../components/useTransitionComponents/Now";
 
 export default function UseTransition() {
   return (
-    <Container id="useTransition" className="mt-5">
+    <Container id="useTransition" className="pt-5 pb-5">
       <h2>useTransition</h2>
       <p>
         <b>useTransition</b> and <b>startTransition</b> let you mark some state

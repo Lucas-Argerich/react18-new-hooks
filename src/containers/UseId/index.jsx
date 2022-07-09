@@ -6,7 +6,7 @@ import UseIdNowTwo from "../../components/useIdComponents/NowTwo";
 
 export default function UseId() {
   return (
-    <Container id="useId">
+    <Container id="useId" className="pb-5">
       <h2>useId</h2>
       <p>
         <b>useId</b> is a new hook for generating unique IDs on both the client
