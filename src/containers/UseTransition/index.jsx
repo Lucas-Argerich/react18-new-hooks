@@ -31,8 +31,9 @@ export default function UseTransition() {
             <p>
               Now the list of items is rendered on low priority. Although this
               is not perfect, the input is rendered with a higher priority than
-              the list, enhancing the performance of the application and the
-              user experience.
+              the list, enhancing the user experience. Have in mind that this is
+              not a perfect solution, since the component has to render two
+              times.
             </p>
           </Col>
         </Row>

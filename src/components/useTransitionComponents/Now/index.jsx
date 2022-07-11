@@ -22,14 +22,15 @@ export default function UseTransitionNow() {
     <>
       <div className="bg-light d-flex gap-2 p-2 overflow-hidden">
         <input type="text" value={input} onChange={handleChange} />
-        {isPending && "loading..."}
-        {list.map((item, index) => {
-          return (
-            <span className="w-100" key={index}>
-              {item}
-            </span>
-          );
-        })}
+        {isPending
+          ? "loading..."
+          : list.map((item, index) => {
+              return (
+                <span className="w-100" key={index}>
+                  {item}
+                </span>
+              );
+            })}
       </div>
     </>
   );
