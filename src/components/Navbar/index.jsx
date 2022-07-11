@@ -12,8 +12,6 @@ export default function Navbar() {
             <Nav.Link href="#useId">useId</Nav.Link>
             <Nav.Link href="#useTransition">useTransition</Nav.Link>
             <Nav.Link href="#useDeferredValue">useDeferredValue</Nav.Link>
-            <Nav.Link href="#useSyncExternalStore">useSyncExternalStore</Nav.Link>
-            <Nav.Link href="#useInsertionEffect">useInsertionEffect</Nav.Link>
           </Nav>
         </NavBar.Collapse>
       </Container>
