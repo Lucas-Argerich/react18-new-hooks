@@ -4,8 +4,6 @@ import MainTitle from "./containers/MainTitle";
 import UseId from "./containers/UseId";
 import UseTransition from "./containers/UseTransition";
 import UseDeferredValue from "./containers/UseDeferredValue";
-import UseSyncExternalStore from "./containers/UseSyncExternalStorage";
-import UseInsertionEffect from "./containers/UseInsertionEffect";
 
 function App() {
   return (
@@ -16,8 +14,6 @@ function App() {
         <UseId />
         <UseTransition />
         <UseDeferredValue />
-        <UseSyncExternalStore />
-        <UseInsertionEffect />
       </main>
     </div>
   );
