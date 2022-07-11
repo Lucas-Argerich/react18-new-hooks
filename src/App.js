@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar variant="dark" />
-      <main className="mt-5">
+      <main className="mt-5 pb-5 mb-5">
         <MainTitle />
         <UseId />
         <UseTransition />
