@@ -1,7 +1,7 @@
 import { useMemo, useDeferredValue } from "react";
 
 export default function List({ input }) {
-  const LIST_SIZE = 15000;
+  const LIST_SIZE = 10000;
   const deferredInput = useDeferredValue(input);
   const list = useMemo(() => {
     const l = [];

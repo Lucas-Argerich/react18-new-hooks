@@ -20,7 +20,7 @@ export default function UseTransition() {
             <UseTransitionBefore />
             <p>
               Before, the list of items was rendered every time the input
-              changed (we are rendering a 15000 item list). This was a problem
+              changed (we are rendering a 10000 item list). This was a problem
               because the list was constantly updating and the browser was
               constantly re-rendering the list, causing a performance issue.
             </p>

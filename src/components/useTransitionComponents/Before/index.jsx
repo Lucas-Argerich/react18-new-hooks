@@ -4,7 +4,7 @@ export default function UseTransitionBefore() {
   const [input, setInput] = useState("");
   const [list, setList] = useState([]);
 
-  const LIST_SIZE = 15000;
+  const LIST_SIZE = 10000;
 
   function handleChange(e) {
     setInput(e.target.value);
